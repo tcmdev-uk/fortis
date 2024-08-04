@@ -26,7 +26,9 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sveltejs/adapter-vercel": "^5.4.1",
 		"gsap": "^3.12.5",
-		"svelte-preprocess-import-assets": "^1.1.0"
+		"svelte-preprocess-import-assets": "^1.1.0",
+		"vercel": "^35.2.3"
 	}
 }
