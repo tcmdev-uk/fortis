@@ -1,4 +1,9 @@
 <script> 
+
+import Animations from "$lib/animations.svelte";
+
+
+
 </script>
 
 <main>
@@ -20,7 +25,7 @@
         
      
        <h2 class="md:text-2xl text-[1.2rem] font-poppins font-normal text-center font-Poppins capitalize"> We build brands with websites, marketing and content creation</h2>
-        <a href="/GeneralPages/Contact" class="mainButton  flex justify-center items-center bg-cover cursor-pointer bg-gray-600 drop-shadow-2xl hover:bg-mainBlue transition-colors min-w-[200px] max-w-[270px] px-12 font-bold uppercase py-4 whitespace-nowrap rounded-md mt-3 font-poppins text-[0.8rem] font-Poppins" > Lets Start Building 
+        <a href="/Contact" class="mainButton  flex justify-center items-center bg-cover cursor-pointer bg-gray-600 drop-shadow-2xl hover:bg-mainBlue transition-colors min-w-[200px] max-w-[270px] px-12 font-bold uppercase py-4 whitespace-nowrap rounded-md mt-3 font-poppins text-[0.8rem] font-Poppins" > Lets Start Building 
              </a>
       </div>
     
@@ -41,7 +46,7 @@
         <div class="grid grid-cols-1 gap-6 px-8 text-center md:px-0 md:grid-cols-5">
             <div class="overflow-hidden service hover:scale-105 transition-transform cursor-pointer bg-gray-800 drop-shadow-2xl border border-gray-700 rounded-xl">
                 <div class="p-6 flex justify-center relative flex-col items-center">
-                    <a class="absolute w-full h-full" href="./GeneralPages/Contact"> 
+                    <a class="absolute w-full h-full" href="./Contact"> 
                     </a>
                     <img class="w-20 " src="Assets/Icons/website1.svg" alt="">
                     <p class="mt-2  font-Custom font-medium text-white">Websites</p>
@@ -50,7 +55,7 @@
 
             <div class="overflow-hidden service hover:scale-105 transition-transform cursor-pointer bg-gray-800 drop-shadow-2xl border border-gray-700 rounded-xl">
                 <div class="p-6 flex justify-center relative flex-col items-center">
-                    <a class="absolute w-full h-full" href="./GeneralPages/Contact"> 
+                    <a class="absolute w-full h-full" href="./Contact"> 
                     </a>
                     <img class="w-20 " src="Assets/Icons/PPC.svg" alt="">
                     <p class="mt-2  font-Custom font-medium text-white">PPC</p>
@@ -59,7 +64,7 @@
 
             <div class="overflow-hidden service hover:scale-105 transition-transform cursor-pointer bg-gray-800 drop-shadow-2xl border border-gray-700 rounded-xl">
                 <div class="p-6 flex justify-center relative flex-col items-center">
-                    <a class="absolute w-full h-full" href="./GeneralPages/Contact"> 
+                    <a class="absolute w-full h-full" href="./Contact"> 
                     </a>
                     <img class="w-20 invert" src="Assets/Icons/brand.svg" alt="">
                     <p class="mt-2 font-Custom font-medium text-white">Brand Design</p>
@@ -77,7 +82,7 @@
 
             <div class="overflow-hidden service hover:scale-105 transition-transform cursor-pointer bg-gray-800 drop-shadow-2xl border border-gray-700 rounded-xl">
                 <div class="p-6 flex justify-center relative flex-col items-center">
-                    <a class="absolute w-full h-full" href="./Pages/generalPages/contact.html">
+                    <a class="absolute w-full h-full" href="./Pages/contact.html">
                     </a>
                     <img class="w-20" src="Assets/Icons/content.svg" alt="">
                     <p class="mt-2  font-Custom font-medium text-white">Content</p>
@@ -109,7 +114,7 @@
     
           <div class="grid grid-cols-1 gap-6 mt-12 sm:grid-cols-2 work  lg:grid-cols-4 sm:mt-16 lg:mt-20">
               <div class="project flex flex-col cursor-pointer overflow-hidden transition-all duration-200 transform bg-KAIN rounded hover:-translate-y-2">
-                <a class="absolute w-full h-full" href="./GeneralPages/OurWork/WorkInProgress"> </a>
+                <a class="absolute w-full h-full" href="/OurWork/Dnbelectric"> </a>
                   <img class="object-cover w-full rounded-lg" src="/Assets/Images/General/1Artboard1.jpg" alt="" />
                   <div class="flex-1 px-4 py-5 sm:p-6">
                       <p class="font-Custom font-semibold text-white">PyroguardFS</p>
@@ -119,7 +124,7 @@
               </div>
     
               <div class="project flex flex-col relative cursor-pointer overflow-hidden transition-all duration-200 transform  rounded hover:-translate-y-2">
-                <a class="absolute w-full h-full" href="./Pages/Portfolio/dnbElectrical.html">
+                <a class="absolute w-full h-full" href="/OurWork/Dnbelectric">
                 </a>
                   <img class="object-cover w-full rounded-lg" src="/Assets/Images/General/1Artboard 2.jpg" alt="" />
                   <div class="flex-1 px-4 py-5 sm:p-6">
@@ -130,7 +135,7 @@
               </div>
     
               <div class="project flex flex-col cursor-pointer overflow-hidden transition-all duration-200 transform  rounded hover:-translate-y-2">
-                <a class="absolute w-full h-full" href="./Pages/Portfolio/lockIn.html">
+                <a class="absolute w-full h-full" href="/OurWork/LockIn">
                 </a>
                   <img class="object-cover w-full rounded-lg" src="/Assets/Images/General/1Artboard 4.jpg" alt="" />
                   <div class="flex-1 px-4 py-5 sm:p-6">
@@ -141,7 +146,7 @@
               </div>
     
               <div class="project flex flex-col cursor-pointer overflow-hidden transition-all duration-200 transform  rounded hover:-translate-y-2">
-                <a class="absolute w-full h-full" href="./Pages/Portfolio/workInProgress.html">
+                <a class="absolute w-full h-full" href="/OurWork/Dnbelectric">
                 </a>
                   <img class="object-cover w-full rounded-lg" src="/Assets/Images/General/1Artboard 3.jpg" alt="" />
                   <div class="flex-1 px-4 py-5 sm:p-6">
@@ -171,7 +176,7 @@
     
                   <div class="relative inline-flex items-center justify-center mt-8 sm:mt-12 group">
             
-                      <a href="/GeneralPages/Contact" title="" class="inline-flex cursor-pointer items-center text-sm font-semibold text-white transition-all duration-200 group hover:text-mainBlue hover:underline">
+                      <a href="/Contact" title="" class="inline-flex cursor-pointer items-center text-sm font-semibold text-white transition-all duration-200 group hover:text-mainBlue hover:underline">
                         Get in touch today
                         <svg class="w-5 h-5 ml-1 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-200" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <line x1="7" y1="17" x2="17" y2="7"></line>
@@ -209,7 +214,7 @@
                 <p class="mt-8 font-normal text-gray-400  fadeUp">Moreover, branding allows you to tell your business's unique story. It conveys vision and the journey that sets you apart from competitors. By sharing your brand's narrative, you create an emotional connection with your audience, fostering deeper engagement. High-quality content, including blogs, videos, and customer testimonials, further enhances your brand's credibility and authority. Investing in a strong brand presence ensures that your business stands out in a crowded market, driving customer engagement and loyalty.</p>
     
                 <div class="relative inline-flex items-center justify-center mt-8 sm:mt-12 group">
-                    <a href="/GeneralPages/Contact" title="" class="inline-flex cursor-pointer items-center text-sm font-semibold text-white transition-all duration-200 group hover:text-mainBlue hover:underline">
+                    <a href="/Contact" title="" class="inline-flex cursor-pointer items-center text-sm font-semibold text-white transition-all duration-200 group hover:text-mainBlue hover:underline">
                         Get in touch today
                         <svg class="w-5 h-5 ml-1 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-200" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <line x1="7" y1="17" x2="17" y2="7"></line>
@@ -248,7 +253,7 @@
               <p class="mt-8 font-normal text-gray-400 fadeUp">Moreover, content plays a crucial role in shaping your brand's voice and personality. It allows you to communicate your unique perspective and expertise, creating a deeper connection with your audience. By consistently delivering informative and engaging content, you can foster trust and loyalty, positioning your business as a thought leader in your industry. Investing in strong content creation ensures that your message is clear, compelling, and resonates with your target audience, supporting your overall business goals.</p>
     
               <div class="relative inline-flex items-center justify-center mt-8 sm:mt-12 group">
-                <a href="/GeneralPages/Contact" title="" class="inline-flex cursor-pointer items-center text-sm font-semibold text-white transition-all duration-200 group hover:text-mainBlue hover:underline">
+                <a href="/Contact" title="" class="inline-flex cursor-pointer items-center text-sm font-semibold text-white transition-all duration-200 group hover:text-mainBlue hover:underline">
                     Get in touch today
                     <svg class="w-5 h-5 ml-1 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-200" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <line x1="7" y1="17" x2="17" y2="7"></line>
@@ -363,7 +368,6 @@
               
                 <h2 class="mt-6 text-3xl font-normal font-Custom text-white sm:text-4xl lg:text-5xl xl:text-6xl">Let's Build Something Cool Together</h2>
                 <p class="mt-2 text-lg font-normal text-white">Get a free assesment of your businesses online side today!</p>
-                <div  onclick="onclick= window.location.href = './Pages/generalPages/contact.html'" class="mainButton flex justify-center items-center bg-cover cursor-pointer bg-gray-600 text-white drop-shadow-2xl hover:bg-mainBlue transition-colors min-w-[200px] max-w-[270px] px-12 font-bold uppercase py-4 whitespace-nowrap rounded-md mt-3 font-poppins text-[0.8rem] makeBigger font-Poppins" > Let's get talking  </div>
     
             </div>
     
@@ -371,5 +375,5 @@
         </div>
     </section>
     
-    
+
 </main>

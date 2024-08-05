@@ -21,13 +21,13 @@ function toggleMenu() {
     <section class="menu  overflow-auto fixed w-full h-full bg-gray-800 z-40 bg-opacity-90 {
       isMenuVisible ? 'flex' : 'hidden'
 } justify-center items-center">
+  <button class="w-full h-full absolute cursor-default" on:click={toggleMenu}></button>
         <div class="flex justify-center items-center flex-col relative  w-[80%]"> 
           <div class="flex flex-col text-center font-Custom gap-2"> 
           <a class="text-white sm:text-5xl text-4xl uppercase font-bold whitespace-nowrap menuLink" on:click={toggleMenu} href="/"> Home </a>
-          <a class="text-white sm:text-5xl text-4xl uppercase font-bold whitespace-nowrap menuLink" on:click={toggleMenu} href="/GeneralPages/About"> About </a>
-          <a class="text-white sm:text-5xl text-4xl uppercase font-bold whitespace-nowrap menuLink" on:click={toggleMenu} href="/GeneralPages/Contact"> Contact</a>
-          <a class="text-white sm:text-5xl text-4xl uppercase font-bold whitespace-nowrap menuLink" on:click={toggleMenu} href="/GeneralPages/OurWork"> Our Work </a>
- 
+          <a class="text-white sm:text-5xl text-4xl uppercase font-bold whitespace-nowrap menuLink" on:click={toggleMenu} href="/About"> About </a>
+          <a class="text-white sm:text-5xl text-4xl uppercase font-bold whitespace-nowrap menuLink" on:click={toggleMenu} href="/Contact"> Contact</a>
+          <a class="text-white sm:text-5xl text-4xl uppercase font-bold whitespace-nowrap menuLink" on:click={toggleMenu} href="/OurWork"> Our Work </a>
         </div>
       
         </div> 

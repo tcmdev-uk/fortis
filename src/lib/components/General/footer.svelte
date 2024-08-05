@@ -1,11 +1,13 @@
 <script lang="js">
-
+import Animations from "$lib/animations.svelte";
 
 
 
 </script>
 
 <main> 
+
+
   <footer class="py-12 sm:py-16 bg-gray-900">
     <div class="px-6 mx-auto sm:px-8 lg:px-12 max-w-7xl">
         <div class="grid items-center grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-3">

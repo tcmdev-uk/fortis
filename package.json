@@ -6,7 +6,8 @@
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
-		"lint": "eslint ."
+		"lint": "eslint .",
+		 "check": "svelte-check"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
@@ -28,6 +29,7 @@
 	"dependencies": {
 		"@sveltejs/adapter-vercel": "^5.4.1",
 		"gsap": "^3.12.5",
+		"path": "^0.12.7",
 		"svelte-preprocess-import-assets": "^1.1.0",
 		"vercel": "^35.2.3"
 	}
