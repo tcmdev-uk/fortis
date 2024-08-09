@@ -16,7 +16,7 @@
         <h2
           class="text-3xl font-bold leading-tight text-black font-Custom sm:text-4xl lg:text-5xl"
         >
-          Our Projects
+          Our Projectss
         </h2>
         <p
           class="max-w-lg mx-auto mt-1 text-base leading-relaxed text-gray-600"
